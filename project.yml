@@ -5,14 +5,15 @@ options:
   bundleIdPrefix: com.cino
 
 targets:
-  CinnySwift:
+  CinoClient:
     type: application
     platform: iOS
     deploymentTarget: "15.0"
     sources:
-      - Sources/CinoClient
+      - path: Sources/CinoClient
     settings:
       base:
+        PRODUCT_NAME: CinoClient
         PRODUCT_BUNDLE_IDENTIFIER: com.cino.CinoClient
         GENERATE_INFOPLIST_FILE: YES
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
