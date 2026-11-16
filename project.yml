@@ -1,4 +1,4 @@
-name: Cino Client
+name: CinoClient
 options:
   bundleIdPrefix: com.cino
 targets:
